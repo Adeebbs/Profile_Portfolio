@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADIB AFHAM | Electronics &amp; Automation Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">ADIB<span>AFHAM</span></a>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle Light/Dark Mode">☀️</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <p id="timeGreeting" class="greeting-badge">Welcome to my portfolio</p>
+        <h1>Muhammad Adib Afham <span class="highlight">(Adib Afham)</span></h1>
+        <h2 class="typing-wrapper">
+          <span id="typingText"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-bio">
+          Final-year Bachelor of Electronics Engineering Technology (Computer System) student at Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA). I specialize in bridging industrial PLC automation with modern IoT monitoring dashboards and software systems.
+        </p>
+        <div class="cta-group">
+          <a href="projects.html" class="btn btn-primary">View My Work</a>
+          <a href="docs/resume.pdf" class="btn btn-outline" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/profile.jpg" alt="Portrait of Muhammad Adib Afham Bin Mat Zaki">
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <h2>Key Highlights</h2>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <h3>4x</h3>
+          <p>Consecutive UMPSA Dean's List Awards</p>
+        </article>
+        <article class="stat-card">
+          <h3>Citrex 2026 CERTIFICATE</h3>
+          <p>DEVELOPMENT OF A CUSTOM WEB-BASED POWER MONITORING PORTAL &amp; FOR UMPSA VIA PLC INTERGRATION</p>
+        </article>
+        <article class="stat-card">
+          <h3>OMRON CERTIFICATE</h3>
+          <p>OMRON COLLABORATIVE ROBOT (COBOT) FUNDEMENTAL WORKSHOP CERTIFICATE</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="overview-table-section container">
+      <h2>Core Focus Areas</h2>
+      <p>Summary of my engineering domains and primary technical stacks:</p>
+      <div class="table-responsive">
+        <table>
+          <thead>
+            <tr>
+              <th>Engineering Domain</th>
+              <th>Core Technologies</th>
+              <th>Practical Application</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Industrial Automation</td>
+              <td>Wecon PLC, HMI, Factory I/O</td>
+              <td>Automated sorting lines &amp; real-time PLC hardware simulation</td>
+            </tr>
+            <tr>
+              <td>IoT &amp; SCADA Dashboards</td>
+              <td>Node-RED, MySQL, Grafana, PHP, HTML/CSS</td>
+              <td>Pump station telemetry, alarm logging &amp; KPI visualization</td>
+            </tr>
+            <tr>
+              <td>Application Development</td>
+              <td>Java, XML (Android Studio)</td>
+              <td>Mobile utility applications &amp; responsive web interfaces</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="currentYear">2026</span> Muhammad Adib Afham Bin Mat Zaki (Adib Afham). All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/Adeebbs" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/adib-afham-a77aa1451/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:adibafham878@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top" title="Back to top">&uarr;</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
